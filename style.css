@@ -9,15 +9,37 @@ body {
 }
 
 .container {
+	position: relative;
 	max-width: 800px; /* Maximum width */
 	margin: 0 auto; /* Center it */
   }
   
   .container .content {
-	bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+	position: relative;
+	bottom: 60px; /* At the bottom. Use top:0 to append it to the top */
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 	color: #f1f1f1; /* Grey text */
 	width: 100%; /* Full width */
-	padding: 20px; /* Some padding */
+	padding: 10px; /* Some padding */
+  }
+
+  .container .image{
+	position: relative;
+	bottom: 120px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+  }
+
+  .container .box{
+	position: relative;
+	top: 70px; /* At the bottom. Use top:0 to append it to the top */
+	left: 250px;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1; /* Grey text */
+	height: 180px;
+	width: 800px; /* Full width */
+	padding: 10px; /* Some padding */
   }
