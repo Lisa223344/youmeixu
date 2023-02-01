@@ -26,6 +26,7 @@ body {
 
   .container .image{
 	position: relative;
+	box-shadow: 10px 5px 5px purple;
 	bottom: 120px;
 	width: 200px;
 	height: 200px;
