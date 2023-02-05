@@ -1,7 +1,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url(./images/bg.png);
-	background-size: 102%;
+	background-size: 110%;
 	background-repeat: no-repeat;
 	height: 100vh;
 	background-position: center;
@@ -15,7 +15,7 @@ body {
   
   .container .content {
 	position: relative;
-	bottom: 60px; /* At the bottom. Use top:0 to append it to the top */
+	bottom: 120px; /* At the bottom. Use top:0 to append it to the top */
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 	color: #f1f1f1; /* Grey text */
@@ -27,22 +27,23 @@ body {
   .container .imagebox{
 	position: relative;
 	box-shadow: 10px 5px 5px blue;
-	bottom: 120px;
+	bottom: 150px;
 	width: 200px;
 	height: 240px;
+	right: 100px;
 	border: 1px solid black;
 	z-index: 2;
   }
 
   .container .box{
 	position: relative;
-	top: 70px; /* At the bottom. Use top:0 to append it to the top */
-	left: 250px;
+	top: 80px; /* At the bottom. Use top:0 to append it to the top */
+	left: 190px;
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 	color: #f1f1f1; /* Grey text */
 	height: 180px;
-	width: 800px; /* Full width */
+	width: 750px; /* Full width */
 	padding: 10px; /* Some padding */
   }
 
